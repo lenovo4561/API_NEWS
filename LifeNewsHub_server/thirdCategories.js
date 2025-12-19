@@ -1,0 +1,418 @@
+/**
+ * 三级分类数据 - Arts 分类下的所有二级和三级分类
+ * 自动生成于 2025-12-19T07:55:11.374Z
+ *
+ * 结构：
+ * - Arts (主分类)
+ *   - Animation (二级分类)
+ *     - Anime, Artists, Awards, ... (三级分类)
+ *   - Architecture (二级分类)
+ *     - Archives, Associations, ... (三级分类)
+ *   - Art History (二级分类，无三级)
+ *   ...
+ */
+
+const thirdCategories = {
+  name: "Arts",
+  key: "Arts",
+  subCategories: [
+    {
+      name: "Animation",
+      key: "Animation",
+      thirdCategories: [
+        {
+          name: "Anime",
+          key: "Anime",
+        },
+        {
+          name: "Artists",
+          key: "Artists",
+        },
+        {
+          name: "Awards",
+          key: "Awards",
+        },
+        {
+          name: "Cartoons",
+          key: "Cartoons",
+        },
+        {
+          name: "Collectibles",
+          key: "Collectibles",
+        },
+        {
+          name: "Contests",
+          key: "Contests",
+        },
+        {
+          name: "Experimental",
+          key: "Experimental",
+        },
+        {
+          name: "Festivals",
+          key: "Festivals",
+        },
+        {
+          name: "Magazines and E-zines",
+          key: "Magazines_and_E_zines",
+        },
+        {
+          name: "Movies",
+          key: "Movies",
+        },
+        {
+          name: "Organizations",
+          key: "Organizations",
+        },
+        {
+          name: "Production",
+          key: "Production",
+        },
+        {
+          name: "Stop-Motion",
+          key: "Stop_Motion",
+        },
+        {
+          name: "Training",
+          key: "Training",
+        },
+        {
+          name: "Voice Actors",
+          key: "Voice_Actors",
+        },
+        {
+          name: "Web",
+          key: "Web",
+        },
+        {
+          name: "Writers",
+          key: "Writers",
+        },
+      ],
+    },
+    {
+      name: "Architecture",
+      key: "Architecture",
+      thirdCategories: [
+        {
+          name: "Archives",
+          key: "Archives",
+        },
+        {
+          name: "Associations",
+          key: "Associations",
+        },
+        {
+          name: "Building Types",
+          key: "Building_Types",
+        },
+        {
+          name: "Education",
+          key: "Education",
+        },
+        {
+          name: "Experimental",
+          key: "Experimental",
+        },
+        {
+          name: "Famous Names",
+          key: "Famous_Names",
+        },
+        {
+          name: "History",
+          key: "History",
+        },
+        {
+          name: "Landscape",
+          key: "Landscape",
+        },
+        {
+          name: "Preservation",
+          key: "Preservation",
+        },
+      ],
+    },
+    {
+      name: "Art History",
+      key: "Art_History",
+      thirdCategories: [],
+    },
+    {
+      name: "Awards",
+      key: "Awards",
+      thirdCategories: [],
+    },
+    {
+      name: "Bodyart",
+      key: "Bodyart",
+      thirdCategories: [],
+    },
+    {
+      name: "Classical Studies",
+      key: "Classical_Studies",
+      thirdCategories: [],
+    },
+    {
+      name: "Comics",
+      key: "Comics",
+      thirdCategories: [],
+    },
+    {
+      name: "Costumes",
+      key: "Costumes",
+      thirdCategories: [],
+    },
+    {
+      name: "Crafts",
+      key: "Crafts",
+      thirdCategories: [],
+    },
+    {
+      name: "Design",
+      key: "Design",
+      thirdCategories: [],
+    },
+    {
+      name: "Digital",
+      key: "Digital",
+      thirdCategories: [],
+    },
+    {
+      name: "Education",
+      key: "Education",
+      thirdCategories: [],
+    },
+    {
+      name: "Entertainment",
+      key: "Entertainment",
+      thirdCategories: [],
+    },
+    {
+      name: "Genres",
+      key: "Genres",
+      thirdCategories: [],
+    },
+    {
+      name: "Graphic Design",
+      key: "Graphic_Design",
+      thirdCategories: [],
+    },
+    {
+      name: "Humanities",
+      key: "Humanities",
+      thirdCategories: [],
+    },
+    {
+      name: "Illustration",
+      key: "Illustration",
+      thirdCategories: [],
+    },
+    {
+      name: "Literature",
+      key: "Literature",
+      thirdCategories: [],
+    },
+    {
+      name: "Magazines and E-zines",
+      key: "Magazines_and_E_zines",
+      thirdCategories: [],
+    },
+    {
+      name: "Movies",
+      key: "Movies",
+      thirdCategories: [],
+    },
+    {
+      name: "Music",
+      key: "Music",
+      thirdCategories: [],
+    },
+    {
+      name: "Online Writing",
+      key: "Online_Writing",
+      thirdCategories: [],
+    },
+    {
+      name: "Performing Arts",
+      key: "Performing_Arts",
+      thirdCategories: [],
+    },
+    {
+      name: "Periods and Movements",
+      key: "Periods_and_Movements",
+      thirdCategories: [],
+    },
+    {
+      name: "Photography",
+      key: "Photography",
+      thirdCategories: [],
+    },
+    {
+      name: "Radio",
+      key: "Radio",
+      thirdCategories: [],
+    },
+    {
+      name: "Television",
+      key: "Television",
+      thirdCategories: [],
+    },
+    {
+      name: "Video",
+      key: "Video",
+      thirdCategories: [],
+    },
+    {
+      name: "Visual Arts",
+      key: "Visual_Arts",
+      thirdCategories: [],
+    },
+    {
+      name: "Writers Resources",
+      key: "Writers_Resources",
+      thirdCategories: [],
+    },
+    {
+      name: "Anime",
+      key: "Anime",
+      thirdCategories: [],
+    },
+    {
+      name: "Artists",
+      key: "Artists",
+      thirdCategories: [],
+    },
+    {
+      name: "Awards",
+      key: "Awards",
+      thirdCategories: [],
+    },
+    {
+      name: "Cartoons",
+      key: "Cartoons",
+      thirdCategories: [],
+    },
+    {
+      name: "Collectibles",
+      key: "Collectibles",
+      thirdCategories: [],
+    },
+    {
+      name: "Contests",
+      key: "Contests",
+      thirdCategories: [],
+    },
+    {
+      name: "Experimental",
+      key: "Experimental",
+      thirdCategories: [],
+    },
+    {
+      name: "Festivals",
+      key: "Festivals",
+      thirdCategories: [],
+    },
+    {
+      name: "Magazines and E-zines",
+      key: "Magazines_and_E_zines",
+      thirdCategories: [],
+    },
+    {
+      name: "Movies",
+      key: "Movies",
+      thirdCategories: [],
+    },
+    {
+      name: "Organizations",
+      key: "Organizations",
+      thirdCategories: [],
+    },
+    {
+      name: "Production",
+      key: "Production",
+      thirdCategories: [],
+    },
+    {
+      name: "Stop-Motion",
+      key: "Stop_Motion",
+      thirdCategories: [],
+    },
+    {
+      name: "Training",
+      key: "Training",
+      thirdCategories: [],
+    },
+    {
+      name: "Voice Actors",
+      key: "Voice_Actors",
+      thirdCategories: [],
+    },
+    {
+      name: "Web",
+      key: "Web",
+      thirdCategories: [],
+    },
+    {
+      name: "Writers",
+      key: "Writers",
+      thirdCategories: [],
+    },
+    {
+      name: "Archives",
+      key: "Archives",
+      thirdCategories: [],
+    },
+    {
+      name: "Associations",
+      key: "Associations",
+      thirdCategories: [],
+    },
+    {
+      name: "Building Types",
+      key: "Building_Types",
+      thirdCategories: [],
+    },
+    {
+      name: "Education",
+      key: "Education",
+      thirdCategories: [],
+    },
+    {
+      name: "Experimental",
+      key: "Experimental",
+      thirdCategories: [],
+    },
+    {
+      name: "Famous Names",
+      key: "Famous_Names",
+      thirdCategories: [],
+    },
+    {
+      name: "History",
+      key: "History",
+      thirdCategories: [],
+    },
+    {
+      name: "Landscape",
+      key: "Landscape",
+      thirdCategories: [],
+    },
+    {
+      name: "Preservation",
+      key: "Preservation",
+      thirdCategories: [],
+    },
+    {
+      name: "Contests",
+      key: "Contests",
+      thirdCategories: [],
+    },
+    {
+      name: "Organizations",
+      key: "Organizations",
+      thirdCategories: [],
+    },
+  ],
+};
+
+module.exports = thirdCategories;

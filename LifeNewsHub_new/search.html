@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search - Life News Hub</title>
+    <meta name="description" content="Search for news articles" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html">Life News Hub</a>
+        </h1>
+      </div>
+    </header>
+
+    <!-- Categories -->
+    <nav class="categories" id="categoriesNav">
+      <div class="categories-container">
+        <!-- Categories will be loaded here -->
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <!-- Search Form -->
+        <section class="search-section">
+          <h2 class="page-title">Search News</h2>
+          <form id="searchForm" class="search-form-large">
+            <input
+              type="search"
+              name="words"
+              id="searchInput"
+              placeholder="Enter keywords..."
+              autofocus
+            />
+            <button type="submit" class="search-btn-large">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+              Search
+            </button>
+          </form>
+        </section>
+
+        <!-- Search Results -->
+        <section class="news-section" id="resultsSection" style="display: none">
+          <h3 class="search-results-title" id="resultsTitle">Search Results</h3>
+          <div class="news-list" id="searchResults">
+            <!-- Results will be loaded here -->
+          </div>
+        </section>
+
+        <!-- Load More Button -->
+        <button class="load-more-btn" id="loadMoreBtn" style="display: none">
+          Load More
+        </button>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults" style="display: none">
+          <p>No results found. Try different keywords.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Life News Hub. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/search.js"></script>
+    <script src="public/collect.js"></script>
+  </body>
+</html>

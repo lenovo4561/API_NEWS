@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Detail - Life News Hub</title>
+    <meta name="description" content="Read full news article" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <a href="index.html">Life News Hub</a>
+        </h1>
+        <div class="search-box">
+          <form id="searchForm" class="search-form">
+            <input
+              type="search"
+              name="words"
+              id="searchInput"
+              placeholder="Search news..."
+            />
+            <button type="submit" class="search-btn">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <button class="mobile-search-btn" id="mobileSearchBtn">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Categories -->
+    <nav class="categories" id="categoriesNav">
+      <div class="categories-container">
+        <!-- Categories will be loaded here -->
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <!-- Article Content -->
+        <article class="article-detail" id="articleDetail">
+          <!-- Loading indicator -->
+          <div class="loading">Loading article...</div>
+        </article>
+
+        <!-- Navigation to Next/Previous Article -->
+        <div class="article-navigation">
+          <a
+            href="#"
+            class="nav-btn prev-btn"
+            id="prevArticle"
+            style="display: none"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="m15 18-6-6 6-6"></path>
+            </svg>
+            Previous Article
+          </a>
+          <a
+            href="#"
+            class="nav-btn next-btn"
+            id="nextArticle"
+            style="display: none"
+          >
+            Next Article
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="m9 18 6-6-6-6"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Life News Hub. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/news-detail.js"></script>
+    <script src="public/collect.js"></script>
+  </body>
+</html>

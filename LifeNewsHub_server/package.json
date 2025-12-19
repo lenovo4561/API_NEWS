@@ -1,0 +1,40 @@
+{
+  "name": "lifenewshub-server",
+  "version": "2.0.0",
+  "description": "LifeNewsHub Backend Server - News API using Event Registry with Express Framework",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/scripts/initDatabase.js",
+    "db:init-languages": "node src/scripts/initLanguages.js",
+    "db:add-category-key": "node src/scripts/addCategoryKey.js",
+    "db:add-arts-subs": "node src/scripts/addArtsSubCategories.js",
+    "db:add-third-key": "node src/scripts/addThirdCategoryKey.js",
+    "db:import-subs": "node src/scripts/importSubCategories.js",
+    "db:check-subs": "node src/scripts/checkSubCategoryMismatch.js",
+    "db:clean-subs": "node src/scripts/cleanSubCategoryNames.js",
+    "db:delete-empty-subs": "node src/scripts/deleteEmptySubCategories.js",
+    "parse:thirds": "node src/scripts/parseThirdCategories.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news",
+    "api",
+    "eventregistry",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.16.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
