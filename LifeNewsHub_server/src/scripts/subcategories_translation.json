@@ -1,0 +1,1598 @@
+{
+  "exportTime": "2025-12-22T07:29:07.555Z",
+  "total": 419,
+  "needTranslation": 265,
+  "alreadyTranslated": 154,
+  "data": [
+    {
+      "id": 1196,
+      "main_category_id": 16,
+      "original": "Animation",
+      "translated": "动画"
+    },
+    {
+      "id": 1197,
+      "main_category_id": 16,
+      "original": "Radio",
+      "translated": "电台"
+    },
+    {
+      "id": 1202,
+      "main_category_id": 16,
+      "original": "Video",
+      "translated": "视频"
+    },
+    {
+      "id": 1206,
+      "main_category_id": 16,
+      "original": "Classical Studies",
+      "translated": "古典研究"
+    },
+    {
+      "id": 1209,
+      "main_category_id": 16,
+      "original": "Costumes",
+      "translated": "服装"
+    },
+    {
+      "id": 1211,
+      "main_category_id": 16,
+      "original": "Contests",
+      "translated": "竞赛"
+    },
+    {
+      "id": 817,
+      "main_category_id": 17,
+      "original": "Aerospace and Defense",
+      "translated": "航空航天与国防"
+    },
+    {
+      "id": 818,
+      "main_category_id": 17,
+      "original": "Agriculture and Forestry",
+      "translated": "农林业"
+    },
+    {
+      "id": 819,
+      "main_category_id": 17,
+      "original": "Arts and Entertainment",
+      "translated": "艺术娱乐"
+    },
+    {
+      "id": 827,
+      "main_category_id": 17,
+      "original": "Consumer Goods and Services",
+      "translated": "消费品服务"
+    },
+    {
+      "id": 828,
+      "main_category_id": 17,
+      "original": "Cooperatives",
+      "translated": "合作社"
+    },
+    {
+      "id": 829,
+      "main_category_id": 17,
+      "original": "Customer Service",
+      "translated": "客户服务"
+    },
+    {
+      "id": 831,
+      "main_category_id": 17,
+      "original": "Education and Training",
+      "translated": "教育培训"
+    },
+    {
+      "id": 832,
+      "main_category_id": 17,
+      "original": "Electronics and Electrical",
+      "translated": "电子电气"
+    },
+    {
+      "id": 836,
+      "main_category_id": 17,
+      "original": "Financial Services",
+      "translated": "金融服务"
+    },
+    {
+      "id": 837,
+      "main_category_id": 17,
+      "original": "Food and Related Products",
+      "translated": "食品相关产品"
+    },
+    {
+      "id": 838,
+      "main_category_id": 17,
+      "original": "Healthcare",
+      "translated": "医疗保健"
+    },
+    {
+      "id": 839,
+      "main_category_id": 17,
+      "original": "Hospitality",
+      "translated": "酒店服务"
+    },
+    {
+      "id": 840,
+      "main_category_id": 17,
+      "original": "Human Resources",
+      "translated": "人力资源"
+    },
+    {
+      "id": 841,
+      "main_category_id": 17,
+      "original": "Industrial Goods and Services",
+      "translated": "工业品服务"
+    },
+    {
+      "id": 842,
+      "main_category_id": 17,
+      "original": "Information Services",
+      "translated": "信息服务"
+    },
+    {
+      "id": 843,
+      "main_category_id": 17,
+      "original": "Information Technology",
+      "translated": "信息技术"
+    },
+    {
+      "id": 844,
+      "main_category_id": 17,
+      "original": "International Business and Trade",
+      "translated": "国际商贸"
+    },
+    {
+      "id": 845,
+      "main_category_id": 17,
+      "original": "Investing",
+      "translated": "投资"
+    },
+    {
+      "id": 846,
+      "main_category_id": 17,
+      "original": "Major Companies",
+      "translated": "大型企业"
+    },
+    {
+      "id": 848,
+      "main_category_id": 17,
+      "original": "Marketing and Advertising",
+      "translated": "市场广告"
+    },
+    {
+      "id": 850,
+      "main_category_id": 17,
+      "original": "Mining and Drilling",
+      "translated": "采矿钻探"
+    },
+    {
+      "id": 851,
+      "main_category_id": 17,
+      "original": "Opportunities",
+      "translated": "商机"
+    },
+    {
+      "id": 852,
+      "main_category_id": 17,
+      "original": "Publishing and Printing",
+      "translated": "出版印刷"
+    },
+    {
+      "id": 867,
+      "main_category_id": 17,
+      "original": "Small Business",
+      "translated": "小型企业"
+    },
+    {
+      "id": 868,
+      "main_category_id": 17,
+      "original": "Telecommunications",
+      "translated": "电信"
+    },
+    {
+      "id": 869,
+      "main_category_id": 17,
+      "original": "Textiles and Nonwovens",
+      "translated": "纺织无纺布"
+    },
+    {
+      "id": 870,
+      "main_category_id": 17,
+      "original": "Transportation and Logistics",
+      "translated": "运输物流"
+    },
+    {
+      "id": 871,
+      "main_category_id": 17,
+      "original": "Wholesale Trade",
+      "translated": "批发贸易"
+    },
+    {
+      "id": 1222,
+      "main_category_id": 17,
+      "original": "Retail Trade",
+      "translated": "零售贸易"
+    },
+    {
+      "id": 1223,
+      "main_category_id": 17,
+      "original": "Accounting",
+      "translated": "会计"
+    },
+    {
+      "id": 1224,
+      "main_category_id": 17,
+      "original": "E-Commerce",
+      "translated": "电子商务"
+    },
+    {
+      "id": 872,
+      "main_category_id": 18,
+      "original": "Artificial Intelligence",
+      "translated": "人工智能"
+    },
+    {
+      "id": 873,
+      "main_category_id": 18,
+      "original": "Artificial Life",
+      "translated": "人工生命"
+    },
+    {
+      "id": 874,
+      "main_category_id": 18,
+      "original": "Bulletin Board Systems",
+      "translated": "电子布告栏"
+    },
+    {
+      "id": 875,
+      "main_category_id": 18,
+      "original": "CAD and CAM",
+      "translated": "CAD与CAM"
+    },
+    {
+      "id": 876,
+      "main_category_id": 18,
+      "original": "Companies",
+      "translated": "公司"
+    },
+    {
+      "id": 877,
+      "main_category_id": 18,
+      "original": "Computer Science",
+      "translated": "计算机科学"
+    },
+    {
+      "id": 878,
+      "main_category_id": 18,
+      "original": "Data Communications",
+      "translated": "数据通信"
+    },
+    {
+      "id": 879,
+      "main_category_id": 18,
+      "original": "Data Formats",
+      "translated": "数据格式"
+    },
+    {
+      "id": 880,
+      "main_category_id": 18,
+      "original": "Desktop Publishing",
+      "translated": "桌面出版"
+    },
+    {
+      "id": 883,
+      "main_category_id": 18,
+      "original": "Emulators",
+      "translated": "模拟器"
+    },
+    {
+      "id": 884,
+      "main_category_id": 18,
+      "original": "Ethics",
+      "translated": "伦理"
+    },
+    {
+      "id": 885,
+      "main_category_id": 18,
+      "original": "Graphics",
+      "translated": "图形"
+    },
+    {
+      "id": 886,
+      "main_category_id": 18,
+      "original": "Hacking",
+      "translated": "黑客"
+    },
+    {
+      "id": 889,
+      "main_category_id": 18,
+      "original": "Home Automation",
+      "translated": "家庭自动化"
+    },
+    {
+      "id": 892,
+      "main_category_id": 18,
+      "original": "Intranet",
+      "translated": "内网"
+    },
+    {
+      "id": 893,
+      "main_category_id": 18,
+      "original": "Mobile Computing",
+      "translated": "移动计算"
+    },
+    {
+      "id": 894,
+      "main_category_id": 18,
+      "original": "Multimedia",
+      "translated": "多媒体"
+    },
+    {
+      "id": 895,
+      "main_category_id": 18,
+      "original": "Open Source",
+      "translated": "开源"
+    },
+    {
+      "id": 897,
+      "main_category_id": 18,
+      "original": "Parallel Computing",
+      "translated": "并行计算"
+    },
+    {
+      "id": 898,
+      "main_category_id": 18,
+      "original": "Performance and Capacity",
+      "translated": "性能容量"
+    },
+    {
+      "id": 901,
+      "main_category_id": 18,
+      "original": "Security",
+      "translated": "安全"
+    },
+    {
+      "id": 904,
+      "main_category_id": 18,
+      "original": "Speech Technology",
+      "translated": "语音技术"
+    },
+    {
+      "id": 905,
+      "main_category_id": 18,
+      "original": "Supercomputing",
+      "translated": "超级计算"
+    },
+    {
+      "id": 906,
+      "main_category_id": 18,
+      "original": "Systems",
+      "translated": "系统"
+    },
+    {
+      "id": 909,
+      "main_category_id": 18,
+      "original": "Amstrad",
+      "translated": "Amstrad"
+    },
+    {
+      "id": 910,
+      "main_category_id": 18,
+      "original": "Apple",
+      "translated": "苹果"
+    },
+    {
+      "id": 911,
+      "main_category_id": 18,
+      "original": "Atari",
+      "translated": "Atari"
+    },
+    {
+      "id": 912,
+      "main_category_id": 18,
+      "original": "Commodore",
+      "translated": "Commodore"
+    },
+    {
+      "id": 913,
+      "main_category_id": 18,
+      "original": "HP 3000",
+      "translated": "HP 3000"
+    },
+    {
+      "id": 914,
+      "main_category_id": 18,
+      "original": "Handhelds",
+      "translated": "手持设备"
+    },
+    {
+      "id": 915,
+      "main_category_id": 18,
+      "original": "MSX",
+      "translated": "MSX"
+    },
+    {
+      "id": 916,
+      "main_category_id": 18,
+      "original": "Oric",
+      "translated": "Oric"
+    },
+    {
+      "id": 917,
+      "main_category_id": 18,
+      "original": "RISC OS",
+      "translated": "RISC OS"
+    },
+    {
+      "id": 918,
+      "main_category_id": 18,
+      "original": "Sinclair",
+      "translated": "Sinclair"
+    },
+    {
+      "id": 919,
+      "main_category_id": 18,
+      "original": "Tablet PCs",
+      "translated": "平板电脑"
+    },
+    {
+      "id": 920,
+      "main_category_id": 18,
+      "original": "Virtual Reality",
+      "translated": "虚拟现实"
+    },
+    {
+      "id": 1225,
+      "main_category_id": 18,
+      "original": "Algorithms",
+      "translated": "算法"
+    },
+    {
+      "id": 1226,
+      "main_category_id": 18,
+      "original": "E-Books",
+      "translated": "电子书"
+    },
+    {
+      "id": 1227,
+      "main_category_id": 18,
+      "original": "Human-Computer Interaction",
+      "translated": "人机交互"
+    },
+    {
+      "id": 921,
+      "main_category_id": 19,
+      "original": "Card Games",
+      "translated": "卡牌游戏"
+    },
+    {
+      "id": 923,
+      "main_category_id": 19,
+      "original": "Developers and Publishers",
+      "translated": "开发商发行商"
+    },
+    {
+      "id": 924,
+      "main_category_id": 19,
+      "original": "Dice",
+      "translated": "骰子"
+    },
+    {
+      "id": 925,
+      "main_category_id": 19,
+      "original": "Gambling",
+      "translated": "赌博"
+    },
+    {
+      "id": 926,
+      "main_category_id": 19,
+      "original": "Game Studies",
+      "translated": "游戏研究"
+    },
+    {
+      "id": 927,
+      "main_category_id": 19,
+      "original": "Hand Games",
+      "translated": "手游"
+    },
+    {
+      "id": 930,
+      "main_category_id": 19,
+      "original": "Miniatures",
+      "translated": "微缩模型"
+    },
+    {
+      "id": 931,
+      "main_category_id": 19,
+      "original": "Online",
+      "translated": "在线"
+    },
+    {
+      "id": 932,
+      "main_category_id": 19,
+      "original": "Paper and Pencil",
+      "translated": "纸笔游戏"
+    },
+    {
+      "id": 933,
+      "main_category_id": 19,
+      "original": "Party Games",
+      "translated": "派对游戏"
+    },
+    {
+      "id": 934,
+      "main_category_id": 19,
+      "original": "Play Groups",
+      "translated": "游戏小组"
+    },
+    {
+      "id": 936,
+      "main_category_id": 19,
+      "original": "Puzzles",
+      "translated": "益智"
+    },
+    {
+      "id": 938,
+      "main_category_id": 19,
+      "original": "Roleplaying",
+      "translated": "角色扮演"
+    },
+    {
+      "id": 939,
+      "main_category_id": 19,
+      "original": "Tile Games",
+      "translated": "瓷砖游戏"
+    },
+    {
+      "id": 940,
+      "main_category_id": 19,
+      "original": "Trading Card Games",
+      "translated": "集换式卡牌"
+    },
+    {
+      "id": 941,
+      "main_category_id": 19,
+      "original": "Video Games",
+      "translated": "电子游戏"
+    },
+    {
+      "id": 1228,
+      "main_category_id": 19,
+      "original": "Board Games",
+      "translated": "桌游"
+    },
+    {
+      "id": 1229,
+      "main_category_id": 19,
+      "original": "Coin-Op",
+      "translated": "投币游戏"
+    },
+    {
+      "id": 1230,
+      "main_category_id": 19,
+      "original": "Play-By-Mail",
+      "translated": "邮寄游戏"
+    },
+    {
+      "id": 1231,
+      "main_category_id": 19,
+      "original": "Hand-Eye Coordination",
+      "translated": "手眼协调"
+    },
+    {
+      "id": 942,
+      "main_category_id": 20,
+      "original": "Aging",
+      "translated": "衰老"
+    },
+    {
+      "id": 944,
+      "main_category_id": 20,
+      "original": "Animal",
+      "translated": "动物"
+    },
+    {
+      "id": 951,
+      "main_category_id": 20,
+      "original": "Home Health",
+      "translated": "家庭健康"
+    },
+    {
+      "id": 955,
+      "main_category_id": 20,
+      "original": "Nursing",
+      "translated": "护理"
+    },
+    {
+      "id": 957,
+      "main_category_id": 20,
+      "original": "Occupational Health and Safety",
+      "translated": "职业健康安全"
+    },
+    {
+      "id": 960,
+      "main_category_id": 20,
+      "original": "Public Health and Safety",
+      "translated": "公共卫生安全"
+    },
+    {
+      "id": 961,
+      "main_category_id": 20,
+      "original": "Reproductive Health",
+      "translated": "生殖健康"
+    },
+    {
+      "id": 963,
+      "main_category_id": 20,
+      "original": "Senses",
+      "translated": "感官"
+    },
+    {
+      "id": 965,
+      "main_category_id": 20,
+      "original": "Specific Substances",
+      "translated": "特定物质"
+    },
+    {
+      "id": 966,
+      "main_category_id": 20,
+      "original": "Support Groups",
+      "translated": "支持小组"
+    },
+    {
+      "id": 968,
+      "main_category_id": 20,
+      "original": "Weight Loss",
+      "translated": "减肥"
+    },
+    {
+      "id": 1187,
+      "main_category_id": 20,
+      "original": "Addictions",
+      "translated": "成瘾"
+    },
+    {
+      "id": 1188,
+      "main_category_id": 20,
+      "original": "Men's Health",
+      "translated": "男性健康"
+    },
+    {
+      "id": 970,
+      "main_category_id": 21,
+      "original": "Cooking",
+      "translated": "烹饪"
+    },
+    {
+      "id": 972,
+      "main_category_id": 21,
+      "original": "Emergency Preparation",
+      "translated": "应急准备"
+    },
+    {
+      "id": 973,
+      "main_category_id": 21,
+      "original": "Entertaining",
+      "translated": "娱乐招待"
+    },
+    {
+      "id": 974,
+      "main_category_id": 21,
+      "original": "Family",
+      "translated": "家庭"
+    },
+    {
+      "id": 975,
+      "main_category_id": 21,
+      "original": "Home Improvement",
+      "translated": "家居装修"
+    },
+    {
+      "id": 976,
+      "main_category_id": 21,
+      "original": "Homemaking",
+      "translated": "家政"
+    },
+    {
+      "id": 977,
+      "main_category_id": 21,
+      "original": "Homeowners",
+      "translated": "房主"
+    },
+    {
+      "id": 978,
+      "main_category_id": 21,
+      "original": "Moving and Relocating",
+      "translated": "搬家搬迁"
+    },
+    {
+      "id": 979,
+      "main_category_id": 21,
+      "original": "Personal Finance",
+      "translated": "个人理财"
+    },
+    {
+      "id": 980,
+      "main_category_id": 21,
+      "original": "Personal Organization",
+      "translated": "个人组织"
+    },
+    {
+      "id": 981,
+      "main_category_id": 21,
+      "original": "Rural Living",
+      "translated": "乡村生活"
+    },
+    {
+      "id": 982,
+      "main_category_id": 21,
+      "original": "Urban Living",
+      "translated": "城市生活"
+    },
+    {
+      "id": 1234,
+      "main_category_id": 21,
+      "original": "Apartment Living",
+      "translated": "公寓生活"
+    },
+    {
+      "id": 1235,
+      "main_category_id": 21,
+      "original": "Do-It-Yourself",
+      "translated": "DIY"
+    },
+    {
+      "id": 1026,
+      "main_category_id": 22,
+      "original": "Anomalies and Alternative Science",
+      "translated": "异常另类科学"
+    },
+    {
+      "id": 1031,
+      "main_category_id": 22,
+      "original": "Educational Resources",
+      "translated": "教育资源"
+    },
+    {
+      "id": 1041,
+      "main_category_id": 22,
+      "original": "Science in Society",
+      "translated": "社会科学"
+    },
+    {
+      "id": 1045,
+      "main_category_id": 23,
+      "original": "Antiques and Collectibles",
+      "translated": "古董收藏品"
+    },
+    {
+      "id": 1046,
+      "main_category_id": 23,
+      "original": "Auctions",
+      "translated": "拍卖"
+    },
+    {
+      "id": 1049,
+      "main_category_id": 23,
+      "original": "Clothing",
+      "translated": "服装"
+    },
+    {
+      "id": 1050,
+      "main_category_id": 23,
+      "original": "Consumer Electronics",
+      "translated": "消费电子"
+    },
+    {
+      "id": 1052,
+      "main_category_id": 23,
+      "original": "Death Care",
+      "translated": "殡葬服务"
+    },
+    {
+      "id": 1054,
+      "main_category_id": 23,
+      "original": "Ethnic and Regional",
+      "translated": "民族地区"
+    },
+    {
+      "id": 1055,
+      "main_category_id": 23,
+      "original": "Flowers",
+      "translated": "鲜花"
+    },
+    {
+      "id": 1056,
+      "main_category_id": 23,
+      "original": "Food",
+      "translated": "食品"
+    },
+    {
+      "id": 1057,
+      "main_category_id": 23,
+      "original": "General Merchandise",
+      "translated": "日用百货"
+    },
+    {
+      "id": 1058,
+      "main_category_id": 23,
+      "original": "Gifts",
+      "translated": "礼品"
+    },
+    {
+      "id": 1060,
+      "main_category_id": 23,
+      "original": "Holidays",
+      "translated": "节日"
+    },
+    {
+      "id": 1061,
+      "main_category_id": 23,
+      "original": "Home and Garden",
+      "translated": "家居园艺"
+    },
+    {
+      "id": 1062,
+      "main_category_id": 23,
+      "original": "Jewelry",
+      "translated": "珠宝"
+    },
+    {
+      "id": 1064,
+      "main_category_id": 23,
+      "original": "Niche",
+      "translated": "小众"
+    },
+    {
+      "id": 1065,
+      "main_category_id": 23,
+      "original": "Office Products",
+      "translated": "办公用品"
+    },
+    {
+      "id": 1066,
+      "main_category_id": 23,
+      "original": "Pets",
+      "translated": "宠物"
+    },
+    {
+      "id": 1071,
+      "main_category_id": 23,
+      "original": "Tobacco",
+      "translated": "烟草"
+    },
+    {
+      "id": 1072,
+      "main_category_id": 23,
+      "original": "Tools",
+      "translated": "工具"
+    },
+    {
+      "id": 1073,
+      "main_category_id": 23,
+      "original": "Toys and Games",
+      "translated": "玩具游戏"
+    },
+    {
+      "id": 1074,
+      "main_category_id": 23,
+      "original": "Travel",
+      "translated": "旅行"
+    },
+    {
+      "id": 1075,
+      "main_category_id": 23,
+      "original": "Vehicles",
+      "translated": "车辆"
+    },
+    {
+      "id": 1083,
+      "main_category_id": 23,
+      "original": "Weddings",
+      "translated": "婚礼"
+    },
+    {
+      "id": 1084,
+      "main_category_id": 24,
+      "original": "Activism",
+      "translated": "激进主义"
+    },
+    {
+      "id": 1086,
+      "main_category_id": 24,
+      "original": "Crime",
+      "translated": "犯罪"
+    },
+    {
+      "id": 1087,
+      "main_category_id": 24,
+      "original": "Death",
+      "translated": "死亡"
+    },
+    {
+      "id": 1088,
+      "main_category_id": 24,
+      "original": "Disabled",
+      "translated": "残障"
+    },
+    {
+      "id": 1089,
+      "main_category_id": 24,
+      "original": "Folklore",
+      "translated": "民俗"
+    },
+    {
+      "id": 1090,
+      "main_category_id": 24,
+      "original": "Future",
+      "translated": "未来"
+    },
+    {
+      "id": 1092,
+      "main_category_id": 24,
+      "original": "Genealogy",
+      "translated": "家谱"
+    },
+    {
+      "id": 1095,
+      "main_category_id": 24,
+      "original": "Issues",
+      "translated": "议题"
+    },
+    {
+      "id": 1097,
+      "main_category_id": 24,
+      "original": "Lifestyle Choices",
+      "translated": "生活方式"
+    },
+    {
+      "id": 1098,
+      "main_category_id": 24,
+      "original": "Military",
+      "translated": "军事"
+    },
+    {
+      "id": 1100,
+      "main_category_id": 24,
+      "original": "Paranormal",
+      "translated": "超自然"
+    },
+    {
+      "id": 1101,
+      "main_category_id": 24,
+      "original": "Philanthropy",
+      "translated": "慈善"
+    },
+    {
+      "id": 1102,
+      "main_category_id": 24,
+      "original": "Philosophy",
+      "translated": "哲学"
+    },
+    {
+      "id": 1103,
+      "main_category_id": 24,
+      "original": "Politics",
+      "translated": "政治"
+    },
+    {
+      "id": 1105,
+      "main_category_id": 24,
+      "original": "Religion and Spirituality",
+      "translated": "宗教灵性"
+    },
+    {
+      "id": 1106,
+      "main_category_id": 24,
+      "original": "Sexuality",
+      "translated": "性"
+    },
+    {
+      "id": 1107,
+      "main_category_id": 24,
+      "original": "Subcultures",
+      "translated": "亚文化"
+    },
+    {
+      "id": 1108,
+      "main_category_id": 24,
+      "original": "Support Groups",
+      "translated": "支持小组"
+    },
+    {
+      "id": 1109,
+      "main_category_id": 24,
+      "original": "Transgendered",
+      "translated": "跨性别"
+    },
+    {
+      "id": 1215,
+      "main_category_id": 24,
+      "original": "Work",
+      "translated": "工作"
+    },
+    {
+      "id": 1216,
+      "main_category_id": 24,
+      "original": "Gay, Lesbian, and Bisexual",
+      "translated": "同性恋双性恋"
+    },
+    {
+      "id": 1111,
+      "main_category_id": 25,
+      "original": "Adventure Racing",
+      "translated": "冒险赛"
+    },
+    {
+      "id": 1112,
+      "main_category_id": 25,
+      "original": "Airsoft",
+      "translated": "气枪"
+    },
+    {
+      "id": 1113,
+      "main_category_id": 25,
+      "original": "Animal Sports",
+      "translated": "动物运动"
+    },
+    {
+      "id": 1114,
+      "main_category_id": 25,
+      "original": "Archery",
+      "translated": "射箭"
+    },
+    {
+      "id": 1115,
+      "main_category_id": 25,
+      "original": "Badminton",
+      "translated": "羽毛球"
+    },
+    {
+      "id": 1118,
+      "main_category_id": 25,
+      "original": "Bocce",
+      "translated": "地掷球"
+    },
+    {
+      "id": 1119,
+      "main_category_id": 25,
+      "original": "Boomerang",
+      "translated": "回力镖"
+    },
+    {
+      "id": 1120,
+      "main_category_id": 25,
+      "original": "Bowling",
+      "translated": "保龄球"
+    },
+    {
+      "id": 1121,
+      "main_category_id": 25,
+      "original": "Boxing",
+      "translated": "拳击"
+    },
+    {
+      "id": 1122,
+      "main_category_id": 25,
+      "original": "Cheerleading",
+      "translated": "啦啦队"
+    },
+    {
+      "id": 1123,
+      "main_category_id": 25,
+      "original": "College and University",
+      "translated": "大学"
+    },
+    {
+      "id": 1125,
+      "main_category_id": 25,
+      "original": "Croquet",
+      "translated": "槌球"
+    },
+    {
+      "id": 1126,
+      "main_category_id": 25,
+      "original": "Cue Sports",
+      "translated": "台球"
+    },
+    {
+      "id": 1128,
+      "main_category_id": 25,
+      "original": "Darts",
+      "translated": "飞镖"
+    },
+    {
+      "id": 1129,
+      "main_category_id": 25,
+      "original": "Disabled",
+      "translated": "残障"
+    },
+    {
+      "id": 1130,
+      "main_category_id": 25,
+      "original": "Equestrian",
+      "translated": "马术"
+    },
+    {
+      "id": 1131,
+      "main_category_id": 25,
+      "original": "Extreme Sports",
+      "translated": "极限运动"
+    },
+    {
+      "id": 1132,
+      "main_category_id": 25,
+      "original": "Fencing",
+      "translated": "击剑"
+    },
+    {
+      "id": 1133,
+      "main_category_id": 25,
+      "original": "Flying Discs",
+      "translated": "飞盘"
+    },
+    {
+      "id": 1134,
+      "main_category_id": 25,
+      "original": "Footbag",
+      "translated": "毽球"
+    },
+    {
+      "id": 1136,
+      "main_category_id": 25,
+      "original": "Gaelic",
+      "translated": "盖尔运动"
+    },
+    {
+      "id": 1137,
+      "main_category_id": 25,
+      "original": "Goalball",
+      "translated": "盲人门球"
+    },
+    {
+      "id": 1139,
+      "main_category_id": 25,
+      "original": "Greyhound Racing",
+      "translated": "灰狗竞速"
+    },
+    {
+      "id": 1140,
+      "main_category_id": 25,
+      "original": "Gymnastics",
+      "translated": "体操"
+    },
+    {
+      "id": 1141,
+      "main_category_id": 25,
+      "original": "Handball",
+      "translated": "手球"
+    },
+    {
+      "id": 1142,
+      "main_category_id": 25,
+      "original": "Hockey",
+      "translated": "曲棍球"
+    },
+    {
+      "id": 1143,
+      "main_category_id": 25,
+      "original": "Informal Sports",
+      "translated": "非正式运动"
+    },
+    {
+      "id": 1144,
+      "main_category_id": 25,
+      "original": "Jai Alai",
+      "translated": "回力球"
+    },
+    {
+      "id": 1145,
+      "main_category_id": 25,
+      "original": "Kabbadi",
+      "translated": "卡巴迪"
+    },
+    {
+      "id": 1146,
+      "main_category_id": 25,
+      "original": "Korfball",
+      "translated": "合球"
+    },
+    {
+      "id": 1147,
+      "main_category_id": 25,
+      "original": "Lacrosse",
+      "translated": "长曲棍球"
+    },
+    {
+      "id": 1148,
+      "main_category_id": 25,
+      "original": "Laser Games",
+      "translated": "激光游戏"
+    },
+    {
+      "id": 1149,
+      "main_category_id": 25,
+      "original": "Lumberjack",
+      "translated": "伐木"
+    },
+    {
+      "id": 1150,
+      "main_category_id": 25,
+      "original": "Martial Arts",
+      "translated": "武术"
+    },
+    {
+      "id": 1151,
+      "main_category_id": 25,
+      "original": "Motorsports",
+      "translated": "赛车"
+    },
+    {
+      "id": 1153,
+      "main_category_id": 25,
+      "original": "Netball",
+      "translated": "投球"
+    },
+    {
+      "id": 1154,
+      "main_category_id": 25,
+      "original": "Officiating",
+      "translated": "裁判"
+    },
+    {
+      "id": 1156,
+      "main_category_id": 25,
+      "original": "Orienteering",
+      "translated": "定向越野"
+    },
+    {
+      "id": 1157,
+      "main_category_id": 25,
+      "original": "Paddleball",
+      "translated": "板球"
+    },
+    {
+      "id": 1158,
+      "main_category_id": 25,
+      "original": "Paintball",
+      "translated": "彩弹"
+    },
+    {
+      "id": 1160,
+      "main_category_id": 25,
+      "original": "Petanque",
+      "translated": "法式滚球"
+    },
+    {
+      "id": 1161,
+      "main_category_id": 25,
+      "original": "Racquetball",
+      "translated": "壁球"
+    },
+    {
+      "id": 1162,
+      "main_category_id": 25,
+      "original": "Rodeo",
+      "translated": "牛仔竞技"
+    },
+    {
+      "id": 1163,
+      "main_category_id": 25,
+      "original": "Rope Skipping",
+      "translated": "跳绳"
+    },
+    {
+      "id": 1164,
+      "main_category_id": 25,
+      "original": "Rounders",
+      "translated": "圆场棒球"
+    },
+    {
+      "id": 1165,
+      "main_category_id": 25,
+      "original": "Running",
+      "translated": "跑步"
+    },
+    {
+      "id": 1166,
+      "main_category_id": 25,
+      "original": "Sepak Takraw",
+      "translated": "藤球"
+    },
+    {
+      "id": 1167,
+      "main_category_id": 25,
+      "original": "Skateboarding",
+      "translated": "滑板"
+    },
+    {
+      "id": 1168,
+      "main_category_id": 25,
+      "original": "Skating",
+      "translated": "滑冰"
+    },
+    {
+      "id": 1170,
+      "main_category_id": 25,
+      "original": "Softball",
+      "translated": "垒球"
+    },
+    {
+      "id": 1173,
+      "main_category_id": 25,
+      "original": "Strength Sports",
+      "translated": "力量运动"
+    },
+    {
+      "id": 1174,
+      "main_category_id": 25,
+      "original": "Table Tennis",
+      "translated": "乒乓球"
+    },
+    {
+      "id": 1175,
+      "main_category_id": 25,
+      "original": "Tchoukball",
+      "translated": "巧固球"
+    },
+    {
+      "id": 1176,
+      "main_category_id": 25,
+      "original": "Team Handball",
+      "translated": "手球"
+    },
+    {
+      "id": 1177,
+      "main_category_id": 25,
+      "original": "Team Spirit",
+      "translated": "团队精神"
+    },
+    {
+      "id": 1179,
+      "main_category_id": 25,
+      "original": "Track and Field",
+      "translated": "田径"
+    },
+    {
+      "id": 1180,
+      "main_category_id": 25,
+      "original": "Volleyball",
+      "translated": "排球"
+    },
+    {
+      "id": 1181,
+      "main_category_id": 25,
+      "original": "Walking",
+      "translated": "步行"
+    },
+    {
+      "id": 1182,
+      "main_category_id": 25,
+      "original": "Water Sports",
+      "translated": "水上运动"
+    },
+    {
+      "id": 1184,
+      "main_category_id": 25,
+      "original": "Women",
+      "translated": "女子"
+    },
+    {
+      "id": 1185,
+      "main_category_id": 25,
+      "original": "Wrestling",
+      "translated": "摔跤"
+    },
+    {
+      "id": 1186,
+      "main_category_id": 25,
+      "original": "Youth and High School",
+      "translated": "青少年高中"
+    },
+    {
+      "id": 1217,
+      "main_category_id": 25,
+      "original": "Soccer",
+      "translated": "足球"
+    },
+    {
+      "id": 1218,
+      "main_category_id": 25,
+      "original": "Multi-Sports",
+      "translated": "多项运动"
+    },
+    {
+      "id": 1219,
+      "main_category_id": 25,
+      "original": "Squash",
+      "translated": "壁球"
+    },
+    {
+      "id": 1220,
+      "main_category_id": 25,
+      "original": "Pesäpallo",
+      "translated": "芬兰式棒球"
+    },
+    {
+      "id": 1221,
+      "main_category_id": 25,
+      "original": "PesÃ¤pallo",
+      "translated": "[待翻译] PesÃ¤pallo"
+    },
+    {
+      "id": 983,
+      "main_category_id": 38,
+      "original": "Audio",
+      "translated": "音频"
+    },
+    {
+      "id": 984,
+      "main_category_id": 38,
+      "original": "Autos",
+      "translated": "汽车"
+    },
+    {
+      "id": 985,
+      "main_category_id": 38,
+      "original": "Aviation",
+      "translated": "航空"
+    },
+    {
+      "id": 986,
+      "main_category_id": 38,
+      "original": "Birding",
+      "translated": "观鸟"
+    },
+    {
+      "id": 987,
+      "main_category_id": 38,
+      "original": "Boating",
+      "translated": "划船"
+    },
+    {
+      "id": 988,
+      "main_category_id": 38,
+      "original": "Camps",
+      "translated": "露营"
+    },
+    {
+      "id": 989,
+      "main_category_id": 38,
+      "original": "Climbing",
+      "translated": "攀岩"
+    },
+    {
+      "id": 992,
+      "main_category_id": 38,
+      "original": "Food",
+      "translated": "食品"
+    },
+    {
+      "id": 993,
+      "main_category_id": 38,
+      "original": "Guns",
+      "translated": "枪支"
+    },
+    {
+      "id": 995,
+      "main_category_id": 38,
+      "original": "Kites",
+      "translated": "风筝"
+    },
+    {
+      "id": 996,
+      "main_category_id": 38,
+      "original": "Knives",
+      "translated": "刀具"
+    },
+    {
+      "id": 997,
+      "main_category_id": 38,
+      "original": "Living History",
+      "translated": "生活史"
+    },
+    {
+      "id": 998,
+      "main_category_id": 38,
+      "original": "Locks",
+      "translated": "锁具"
+    },
+    {
+      "id": 999,
+      "main_category_id": 38,
+      "original": "Models",
+      "translated": "模型"
+    },
+    {
+      "id": 1000,
+      "main_category_id": 38,
+      "original": "Motorcycles",
+      "translated": "摩托车"
+    },
+    {
+      "id": 1001,
+      "main_category_id": 38,
+      "original": "Nudism",
+      "translated": "裸体主义"
+    },
+    {
+      "id": 1002,
+      "main_category_id": 38,
+      "original": "Outdoors",
+      "translated": "户外"
+    },
+    {
+      "id": 1003,
+      "main_category_id": 38,
+      "original": "Parties",
+      "translated": "派对"
+    },
+    {
+      "id": 1004,
+      "main_category_id": 38,
+      "original": "Pets",
+      "translated": "宠物"
+    },
+    {
+      "id": 1005,
+      "main_category_id": 38,
+      "original": "Picture Ratings",
+      "translated": "图片评级"
+    },
+    {
+      "id": 1006,
+      "main_category_id": 38,
+      "original": "Radio",
+      "translated": "电台"
+    },
+    {
+      "id": 1007,
+      "main_category_id": 38,
+      "original": "Roads and Highways",
+      "translated": "道路高速"
+    },
+    {
+      "id": 1008,
+      "main_category_id": 38,
+      "original": "Scouting",
+      "translated": "童子军"
+    },
+    {
+      "id": 1009,
+      "main_category_id": 38,
+      "original": "Theme Parks",
+      "translated": "主题公园"
+    },
+    {
+      "id": 1020,
+      "main_category_id": 38,
+      "original": "Tobacco",
+      "translated": "烟草"
+    },
+    {
+      "id": 1021,
+      "main_category_id": 38,
+      "original": "Trains and Railroads",
+      "translated": "火车铁路"
+    },
+    {
+      "id": 1022,
+      "main_category_id": 38,
+      "original": "Travel",
+      "translated": "旅行"
+    },
+    {
+      "id": 1232,
+      "main_category_id": 38,
+      "original": "Antiques",
+      "translated": "古董"
+    },
+    {
+      "id": 1233,
+      "main_category_id": 38,
+      "original": "Whips",
+      "translated": "鞭子"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ const newsRoutes = require("./routes/news");
 const infoRoutes = require("./routes/info");
 const categoryRoutes = require("./routes/category");
 const languageRoutes = require("./routes/language");
+const compatibleRoutes = require("./routes/compatible");
 const { testConnection } = require("./config/database");
 const {
   requestLogger,
@@ -40,6 +41,7 @@ app.use("/api/news", newsRoutes);
 app.use("/api/info", infoRoutes);
 app.use("/api/category", categoryRoutes);
 app.use("/api/languages", languageRoutes);
+app.use("/api/compatible", compatibleRoutes); // now项目兼容层
 
 // 健康检查
 app.get("/health", (req, res) => {
@@ -63,6 +65,7 @@ app.get("/", (req, res) => {
       info: "/api/info",
       category: "/api/category",
       languages: "/api/languages",
+      compatible: "/api/compatible", // now项目兼容接口
       categoryTree: "/api/category/tree",
       mainCategory: "/api/category/main",
       subCategory: "/api/category/sub",
@@ -72,6 +75,10 @@ app.get("/", (req, res) => {
       search: "/api/news/search",
       detail: "/api/news/detail",
       articleIds: "/api/news/article-ids",
+      // 兼容层接口
+      compatibleDb: "/api/compatible/db.json",
+      compatibleArticle: "/api/compatible/:id/data.json",
+      compatibleCategory: "/api/compatible/category/:type",
     },
   });
 });

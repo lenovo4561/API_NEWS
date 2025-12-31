@@ -391,7 +391,7 @@ async function getCategoryTree(req, res, next) {
 
     // 获取所有大分类
     const mainCategories = await query(
-      `SELECT id, name, description, sort_order, status, created_at, updated_at 
+      `SELECT id, category_key, name 
        FROM category_main 
        WHERE status = ? 
        ORDER BY sort_order ASC, id ASC`,
@@ -400,7 +400,7 @@ async function getCategoryTree(req, res, next) {
 
     // 获取所有子分类
     const subCategories = await query(
-      `SELECT id, main_category_id, name, description, sort_order, status, created_at, updated_at 
+      `SELECT id, sub_category_key, main_category_id, name 
        FROM category_sub 
        WHERE status = ? 
        ORDER BY sort_order ASC, id ASC`,
@@ -409,7 +409,7 @@ async function getCategoryTree(req, res, next) {
 
     // 获取所有第三级分类
     const thirdCategories = await query(
-      `SELECT id, sub_category_id, name, description, sort_order, status, created_at, updated_at 
+      `SELECT id, third_category_key, sub_category_id, name 
        FROM category_third 
        WHERE status = ? 
        ORDER BY sort_order ASC, id ASC`,
@@ -423,12 +423,22 @@ async function getCategoryTree(req, res, next) {
       );
 
       return {
-        ...main,
+        id: main.id,
+        category_key: main.category_key,
+        name: main.name,
         sub_categories: subs.map((sub) => ({
-          ...sub,
-          third_categories: thirdCategories.filter(
-            (third) => third.sub_category_id === sub.id
-          ),
+          id: sub.id,
+          sub_category_key: sub.sub_category_key,
+          main_category_id: sub.main_category_id,
+          name: sub.name,
+          third_categories: thirdCategories
+            .filter((third) => third.sub_category_id === sub.id)
+            .map((third) => ({
+              id: third.id,
+              third_category_key: third.third_category_key,
+              sub_category_id: third.sub_category_id,
+              name: third.name,
+            })),
         })),
       };
     });

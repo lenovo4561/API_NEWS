@@ -132,6 +132,7 @@ async function initDatabase() {
         status TINYINT DEFAULT 1 COMMENT '状态: 1-正常, 0-禁用',
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
+        UNIQUE INDEX uk_title (title) COMMENT '标题唯一索引，防止重复',
         INDEX idx_main_category (main_category_id),
         INDEX idx_sub_category (sub_category_id),
         INDEX idx_third_category (third_category_id),

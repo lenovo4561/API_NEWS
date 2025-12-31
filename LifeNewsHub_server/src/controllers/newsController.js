@@ -150,43 +150,6 @@ async function getList(req, res) {
 }
 
 /**
- * 搜索新闻
- */
-async function searchNews(req, res) {
-  const lang = req.lang || "en";
-  const erLang = getEventRegistryLang(lang);
-  const words = req.query.words || "";
-  const { page, pageSize } = req.pagination;
-
-  if (!words) {
-    return res.success({
-      list: [],
-      page,
-      pageSize,
-      total: 0,
-      hasMore: false,
-    });
-  }
-
-  const result = await eventRegistry.searchArticles({
-    keyword: words,
-    page,
-    pageSize,
-    lang: erLang,
-  });
-
-  const articles = (result.articles?.results || []).map(formatArticle);
-
-  res.success({
-    list: articles,
-    page,
-    pageSize,
-    total: result.articles?.totalResults || 0,
-    hasMore: articles.length === pageSize,
-  });
-}
-
-/**
  * 获取新闻详情
  */
 async function getDetail(req, res) {
@@ -204,6 +167,7 @@ async function getDetail(req, res) {
   const article = {
     id: articleData.uri || articleId,
     title: articleData.title || "",
+
     body: articleData.body || "",
     image: articleData.image || "",
     source: articleData.source?.title || "",
@@ -228,6 +192,5 @@ module.exports = {
   getHome,
   getArticleIds,
   getList,
-  searchNews,
   getDetail,
 };

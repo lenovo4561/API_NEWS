@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API测试页面</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .status {
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .success {
+        background-color: #d4edda;
+        color: #155724;
+      }
+      .error {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+      .info {
+        background-color: #d1ecf1;
+        color: #0c5460;
+      }
+
+      .article {
+        background: white;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .article h3 {
+        margin: 0 0 10px 0;
+        color: #333;
+      }
+      .article-meta {
+        font-size: 14px;
+        color: #666;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      pre {
+        background: #f4f4f4;
+        padding: 10px;
+        border-radius: 5px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LifeNewsHub API 测试页面</h1>
+
+    <div>
+      <button onclick="testDbJson()">测试 db.json 接口</button>
+      <button onclick="testFirstArticleDetail()">测试文章详情接口</button>
+      <button onclick="clearResults()">清空结果</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="results"></div>
+
+    <script>
+      const API_BASE = "http://localhost:3000/api/compatible";
+
+      function showStatus(message, type = "info") {
+        const statusDiv = document.getElementById("status");
+        statusDiv.className = `status ${type}`;
+        statusDiv.textContent = message;
+      }
+
+      function clearResults() {
+        document.getElementById("results").innerHTML = "";
+        document.getElementById("status").innerHTML = "";
+      }
+
+      async function testDbJson() {
+        clearResults();
+        showStatus("正在请求 db.json...", "info");
+
+        try {
+          const response = await fetch(`${API_BASE}/db.json`);
+
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+          }
+
+          const data = await response.json();
+
+          if (!Array.isArray(data) || data.length === 0) {
+            throw new Error("返回数据格式不正确");
+          }
+
+          // 检查第一个元素是否包含info1
+          const meta = data[0];
+          if (!meta || !meta.info1 || !Array.isArray(meta.info1)) {
+            throw new Error("缺少分类信息(info1)");
+          }
+
+          // 检查文章对象
+          const articles = data.slice(1);
+          if (articles.length === 0) {
+            throw new Error("没有文章数据");
+          }
+
+          showStatus(
+            `✓ 成功获取数据！分类数: ${meta.info1.length}, 文章数: ${articles.length}`,
+            "success"
+          );
+
+          // 显示分类
+          let html = "<h2>分类列表</h2>";
+          html += "<pre>" + JSON.stringify(meta.info1, null, 2) + "</pre>";
+
+          // 显示前5篇文章
+          html += "<h2>前5篇文章</h2>";
+          articles.slice(0, 5).forEach((article, index) => {
+            html += `
+                        <div class="article">
+                            <h3>${index + 1}. ${article.title || "无标题"}</h3>
+                            <div class="article-meta">
+                                <div><strong>ID:</strong> ${
+                                  article.id || "缺失"
+                                }</div>
+                                <div><strong>分类:</strong> ${
+                                  article.type || "缺失"
+                                }</div>
+                                <div><strong>图片:</strong> ${
+                                  article.img || "缺失"
+                                }</div>
+                                <div><strong>时间:</strong> ${
+                                  article.create_time
+                                    ? new Date(
+                                        article.create_time
+                                      ).toLocaleString()
+                                    : "缺失"
+                                }</div>
+                            </div>
+                        </div>
+                    `;
+          });
+
+          document.getElementById("results").innerHTML = html;
+        } catch (error) {
+          showStatus(`✗ 错误: ${error.message}`, "error");
+          document.getElementById(
+            "results"
+          ).innerHTML = `<pre>${error.stack}</pre>`;
+        }
+      }
+
+      async function testFirstArticleDetail() {
+        clearResults();
+        showStatus("正在获取文章列表...", "info");
+
+        try {
+          // 先获取文章列表
+          const listResponse = await fetch(`${API_BASE}/db.json`);
+          if (!listResponse.ok) {
+            throw new Error(`获取列表失败: ${listResponse.status}`);
+          }
+
+          const listData = await listResponse.json();
+          const firstArticle = listData[1]; // 第一篇文章
+
+          if (!firstArticle || !firstArticle.id) {
+            throw new Error("文章列表中没有ID字段");
+          }
+
+          showStatus(`正在获取文章详情 (ID: ${firstArticle.id})...`, "info");
+
+          // 获取文章详情
+          const detailResponse = await fetch(
+            `${API_BASE}/${firstArticle.id}/data.json`
+          );
+          if (!detailResponse.ok) {
+            throw new Error(`获取详情失败: ${detailResponse.status}`);
+          }
+
+          const detail = await detailResponse.json();
+
+          // 检查必需字段
+          const requiredFields = [
+            "id",
+            "title",
+            "type",
+            "img",
+            "create_time",
+            "content",
+          ];
+          const missingFields = requiredFields.filter(
+            (field) => !detail.hasOwnProperty(field)
+          );
+
+          if (missingFields.length > 0) {
+            throw new Error(`缺少字段: ${missingFields.join(", ")}`);
+          }
+
+          if (!Array.isArray(detail.content)) {
+            throw new Error("content 字段不是数组");
+          }
+
+          showStatus("✓ 文章详情获取成功！", "success");
+
+          let html = `
+                    <div class="article">
+                        <h2>${detail.title}</h2>
+                        <div class="article-meta">
+                            <div><strong>ID:</strong> ${detail.id}</div>
+                            <div><strong>分类:</strong> ${detail.type}</div>
+                            <div><strong>图片:</strong> ${detail.img}</div>
+                            <div><strong>时间:</strong> ${new Date(
+                              detail.create_time
+                            ).toLocaleString()}</div>
+                        </div>
+                        <h3>内容 (${detail.content.length} 个HTML片段)</h3>
+                        <pre>${JSON.stringify(
+                          detail.content.slice(0, 3),
+                          null,
+                          2
+                        )}</pre>
+                    </div>
+                `;
+
+          document.getElementById("results").innerHTML = html;
+        } catch (error) {
+          showStatus(`✗ 错误: ${error.message}`, "error");
+          document.getElementById(
+            "results"
+          ).innerHTML = `<pre>${error.stack}</pre>`;
+        }
+      }
+
+      // 页面加载时自动测试
+      window.addEventListener("load", () => {
+        showStatus("页面已加载，点击按钮测试API", "info");
+      });
+    </script>
+  </body>
+</html>

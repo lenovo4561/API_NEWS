@@ -51,6 +51,8 @@ async function getArticles(options = {}) {
     dataType = ["news"],
     forceMaxDataTimeWindow = 31,
     lang = "eng",
+    isDuplicate = "skipDuplicates",
+    hasDuplicate = "keepOnlyHasDuplicates",
   } = options;
 
   const body = {
@@ -66,6 +68,8 @@ async function getArticles(options = {}) {
     includeArticleImage: true,
     includeArticleCategories: true,
     lang,
+    isDuplicate,
+    hasDuplicate,
   };
 
   // 添加关键词搜索
@@ -159,9 +163,63 @@ async function searchArticles(options = {}) {
   });
 }
 
+/**
+ * 获取分类的最近文章流 (minuteStreamArticles)
+ * @param {Object} options - 查询选项
+ * @returns {Promise<Object>} 文章流
+ */
+async function getMinuteStreamArticles(options = {}) {
+  const {
+    categoryUri = "",
+    keyword = "",
+    recentActivityArticlesUpdatesAfterMinsAgo = 300,
+    isDuplicate = "skipDuplicates",
+    hasDuplicate = null,
+    dataType = ["news", "pr", "blog"],
+  } = options;
+
+  // 构建查询对象
+  const query = {
+    $query: {},
+    $filter: {},
+  };
+
+  // 添加分类过滤
+  if (categoryUri) {
+    query.$query.categoryUri = categoryUri;
+  }
+
+  // 添加关键词搜索
+  if (keyword) {
+    query.$query.keyword = keyword;
+  }
+
+  // 添加数据类型过滤
+  if (dataType && dataType.length > 0) {
+    query.$filter.dataType = dataType;
+  }
+
+  // 添加去重过滤器
+  if (isDuplicate) {
+    query.$filter.isDuplicate = isDuplicate;
+  }
+
+  if (hasDuplicate) {
+    query.$filter.hasDuplicate = hasDuplicate;
+  }
+
+  const body = {
+    query,
+    recentActivityArticlesUpdatesAfterMinsAgo,
+  };
+
+  return callEventRegistryAPI("/minuteStreamArticles", body);
+}
+
 module.exports = {
   getArticles,
   getArticlesForTopicPage,
   getArticle,
   searchArticles,
+  getMinuteStreamArticles,
 };

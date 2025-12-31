@@ -50,17 +50,6 @@ router.get(
 );
 
 /**
- * GET /api/news/search
- * 搜索新闻
- */
-router.get(
-  "/search",
-  validateLanguage,
-  validatePagination,
-  asyncHandler(newsController.searchNews)
-);
-
-/**
  * GET /api/news/detail
  * 获取新闻详情
  */
